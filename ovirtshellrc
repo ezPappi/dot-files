@@ -1,0 +1,18 @@
+[cli]
+autoconnect = True
+autopage = True
+[ovirt-shell]
+username = admin@internal
+renew_session = False
+timeout = None
+extended_prompt = False
+url = https://ovirt-host.tld/ovirt-engine/api
+insecure = True
+kerberos = False
+filter = False
+session_timeout = None
+ca_file = None
+dont_validate_cert_chain = True
+key_file = None
+password =
+cert_file = None
